@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D36639FF298E4FA000221824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36639FD298E4FA000221824 /* LaunchScreen.storyboard */; };
+		D3663A00298E50F200221824 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F0009F1FF9C5B200A9F801 /* ViewController.swift */; };
+		D3663A02298E520A00221824 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3663A01298E520A00221824 /* ViewController2.swift */; };
+		D3663A04298E523700221824 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3663A03298E523700221824 /* ViewController3.swift */; };
+		D3663A06298E535400221824 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3663A05298E535400221824 /* ViewController4.swift */; };
+		D3663A08298E580300221824 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3663A07298E580300221824 /* ViewController5.swift */; };
+		D3BDFBA52977BC3A00A887B7 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDFBA42977BC3A00A887B7 /* ViewController6.swift */; };
+		D3F0009C1FF9C5B200A9F801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F0009B1FF9C5B200A9F801 /* AppDelegate.swift */; };
+		D3F0009E1FF9C5B200A9F801 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F0009D1FF9C5B200A9F801 /* SceneDelegate.swift */; };
+		D3F000A31FF9C5B200A9F801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F000A11FF9C5B200A9F801 /* Main.storyboard */; };
+		D3F000A51FF9C5B300A9F801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F000A41FF9C5B300A9F801 /* Assets.xcassets */; };
+		D3F000B01FF9CBEC00A9F801 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F000AF1FF9CBEC00A9F801 /* LoginPage.swift */; };
+		D3F000B21FF9CCA800A9F801 /* loginFieldName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F000B11FF9CCA800A9F801 /* loginFieldName.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D36639FE298E4FA000221824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3663A01298E520A00221824 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		D3663A03298E523700221824 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		D3663A05298E535400221824 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		D3663A07298E580300221824 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		D3BDFBA42977BC3A00A887B7 /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		D3F000981FF9C5B200A9F801 /* instagramLogin7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instagramLogin7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F0009B1FF9C5B200A9F801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3F0009D1FF9C5B200A9F801 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3F0009F1FF9C5B200A9F801 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3F000A21FF9C5B200A9F801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3F000A41FF9C5B300A9F801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3F000A91FF9C5B300A9F801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F000AF1FF9CBEC00A9F801 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		D3F000B11FF9CCA800A9F801 /* loginFieldName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginFieldName.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3F000951FF9C5B200A9F801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3F0008F1FF9C5B200A9F801 = {
+			isa = PBXGroup;
+			children = (
+				D3663A07298E580300221824 /* ViewController5.swift */,
+				D3F0009A1FF9C5B200A9F801 /* instagramLogin7 */,
+				D3F000991FF9C5B200A9F801 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3F000991FF9C5B200A9F801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3F000981FF9C5B200A9F801 /* instagramLogin7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3F0009A1FF9C5B200A9F801 /* instagramLogin7 */ = {
+			isa = PBXGroup;
+			children = (
+				D36639FD298E4FA000221824 /* LaunchScreen.storyboard */,
+				D3F000A41FF9C5B300A9F801 /* Assets.xcassets */,
+				D3F000A91FF9C5B300A9F801 /* Info.plist */,
+				D3F0009B1FF9C5B200A9F801 /* AppDelegate.swift */,
+				D3F0009D1FF9C5B200A9F801 /* SceneDelegate.swift */,
+				D3BDFBA42977BC3A00A887B7 /* ViewController6.swift */,
+				D3F0009F1FF9C5B200A9F801 /* ViewController.swift */,
+				D3F000A11FF9C5B200A9F801 /* Main.storyboard */,
+				D3663A05298E535400221824 /* ViewController4.swift */,
+				D3663A03298E523700221824 /* ViewController3.swift */,
+				D3663A01298E520A00221824 /* ViewController2.swift */,
+				D3F000B11FF9CCA800A9F801 /* loginFieldName.swift */,
+				D3F000AF1FF9CBEC00A9F801 /* LoginPage.swift */,
+			);
+			path = instagramLogin7;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3F000971FF9C5B200A9F801 /* instagramLogin7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F000AC1FF9C5B300A9F801 /* Build configuration list for PBXNativeTarget "instagramLogin7" */;
+			buildPhases = (
+				D3F000941FF9C5B200A9F801 /* Sources */,
+				D3F000951FF9C5B200A9F801 /* Frameworks */,
+				D3F000961FF9C5B200A9F801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instagramLogin7;
+			productName = instagramLogin7;
+			productReference = D3F000981FF9C5B200A9F801 /* instagramLogin7.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3F000901FF9C5B200A9F801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D3F000971FF9C5B200A9F801 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = D3F000931FF9C5B200A9F801 /* Build configuration list for PBXProject "instagramLogin7" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3F0008F1FF9C5B200A9F801;
+			productRefGroup = D3F000991FF9C5B200A9F801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3F000971FF9C5B200A9F801 /* instagramLogin7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3F000961FF9C5B200A9F801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36639FF298E4FA000221824 /* LaunchScreen.storyboard in Resources */,
+				D3F000A51FF9C5B300A9F801 /* Assets.xcassets in Resources */,
+				D3F000A31FF9C5B200A9F801 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3F000941FF9C5B200A9F801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3663A02298E520A00221824 /* ViewController2.swift in Sources */,
+				D3663A00298E50F200221824 /* ViewController.swift in Sources */,
+				D3663A04298E523700221824 /* ViewController3.swift in Sources */,
+				D3F000B01FF9CBEC00A9F801 /* LoginPage.swift in Sources */,
+				D3663A08298E580300221824 /* ViewController5.swift in Sources */,
+				D3663A06298E535400221824 /* ViewController4.swift in Sources */,
+				D3F000B21FF9CCA800A9F801 /* loginFieldName.swift in Sources */,
+				D3BDFBA52977BC3A00A887B7 /* ViewController6.swift in Sources */,
+				D3F0009C1FF9C5B200A9F801 /* AppDelegate.swift in Sources */,
+				D3F0009E1FF9C5B200A9F801 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D36639FD298E4FA000221824 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36639FE298E4FA000221824 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D3F000A11FF9C5B200A9F801 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F000A21FF9C5B200A9F801 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3F000AA1FF9C5B300A9F801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3F000AB1FF9C5B300A9F801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3F000AD1FF9C5B300A9F801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = instagramLogin7/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = first.instagramLogin7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3F000AE1FF9C5B300A9F801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = instagramLogin7/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = first.instagramLogin7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3F000931FF9C5B200A9F801 /* Build configuration list for PBXProject "instagramLogin7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F000AA1FF9C5B300A9F801 /* Debug */,
+				D3F000AB1FF9C5B300A9F801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F000AC1FF9C5B300A9F801 /* Build configuration list for PBXNativeTarget "instagramLogin7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F000AD1FF9C5B300A9F801 /* Debug */,
+				D3F000AE1FF9C5B300A9F801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3F000901FF9C5B200A9F801 /* Project object */;
+}
